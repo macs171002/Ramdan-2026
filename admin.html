@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+<h2>🛠️ لوحة التحكم</h2>
+<div id="auth"></div>
+
+<div id="panel" style="display:none">
+  <input id="title" placeholder="العنوان">
+  <input id="category" placeholder="التصنيف">
+  <input id="poster" placeholder="رابط الصورة">
+  <input id="url" placeholder="رابط m3u8 / mp4">
+  <button onclick="addItem()">إضافة</button>
+  <pre id="output"></pre>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
