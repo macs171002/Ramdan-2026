@@ -1,4 +1,4 @@
-const ADMIN_ID = "PUT_YOUR_TELEGRAM_ID";
+const ADMIN_ID = "2084879724";
 const tg = Telegram.WebApp;
 tg.ready();
 
