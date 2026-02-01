@@ -1,0 +1,8 @@
+body{margin:0;background:#0b0b0b;color:#fff;direction:rtl;font-family:tahoma}
+header{padding:15px;color:#1db954;font-size:20px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;padding:12px}
+.card{background:#141414;border-radius:14px;overflow:hidden}
+.card img{width:100%;height:220px;object-fit:cover}
+.card h3{padding:8px;font-size:14px}
+.card span{padding:0 8px 10px;color:#1db954;font-size:12px}
+button{width:100%;padding:12px;border-radius:10px;border:none;background:#1db954;font-weight:bold}
